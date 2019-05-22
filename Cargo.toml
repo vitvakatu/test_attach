@@ -1,0 +1,8 @@
+[package]
+name = "test_detach"
+version = "0.1.0"
+authors = ["Ilya Bogdanov <ilya.bogdanov@xdev.re>"]
+edition = "2018"
+
+[dependencies]
+jni = { version = "0.12.2", features = ["invocation"] }
