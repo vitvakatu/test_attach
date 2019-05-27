@@ -5,4 +5,5 @@ authors = ["Ilya Bogdanov <ilya.bogdanov@xdev.re>"]
 edition = "2018"
 
 [dependencies]
-jni = { version = "0.12.2", features = ["invocation"] }
+jni = { path = "../jni-rs", features = ["invocation"] }
+env_logger = "0.6.1"
